@@ -332,9 +332,23 @@ grid.raster(img)
 
 All images should be placed in inst/images. Sub-directories could be created under this but have not been needed. Note how we give the full path to the target file. This is highly recommended, lest weird path issues develop on Windows machines.
 
-### Using files
+### Using files in tutorials
 
-<!-- BG: Describe the test1_csv process. -->
+Dealing with external files in tutorials is confusing! 
+
+When we have students read in files, we actually create the file in a directory called `www`, which lives in the `inst` directory. This is the file the students actually read in during the tutorial (not the one they create in revious questions). 
+
+Recall each exercise acts as its own R session. We need to get the example file into the working area for each question. To do so, we create a setup chunk under each exercise that uses the function `file.copy()`.
+
+Here is an example of an .rds file,"test_1.rds", being copied into the exercise workspace.
+````
+```{r ex-2-rds-setup}
+file.copy(system.file("www/test_1.rds", package = "primer.tutorials"), ".")
+```
+
+````
+
+
 
 ## Before submitting a pull request
 
