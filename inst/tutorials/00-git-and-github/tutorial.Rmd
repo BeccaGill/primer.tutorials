@@ -263,6 +263,33 @@ Type `install_github(c("PPBDS/primer.data", "PPBDS/primer.tutorials"))` into you
 
 ## R Markdown
 
+The most common file you will work with in this course is an R Markdown file (denoted by .Rmd). The document is written in markdown format, which is an easy-to-write plain text format. It also contains chunks of embedded R code.
+
+###
+
+### Exercise 1
+
+Let's create an R Markdown file named "first-file.Rmd". Click on "File" in the top menu of your computer, go to 'New File", and click "R Markdown".
+
+###
+
+### Exercise 2
+
+Name your tutorial file by typing "first-file.Rmd" in the **Title** box. Then, click "Ok". You will be brought to your new file. 
+
+
+###
+
+
+### Exercise 3
+
+Before doing anything, save your work by clicking the blue box with a white rectangle inside of it. (You can also use the keyboard shortcut key "Command S"). A window will pop up asking where you wish to save it. For now, save it to the folder where you store your R projects.
+
+###
+
+
+
+
 
 
 
