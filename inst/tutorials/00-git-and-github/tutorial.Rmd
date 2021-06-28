@@ -287,6 +287,15 @@ Before doing anything, save your work by clicking the blue box with a white rect
 
 ###
 
+### Exercise 4
+
+Take a look at the file. You will see that R tells you a few things you can do with a R markdown file. Before continuing, take a look at the provided link. 
+
+
+###
+
+
+### Exercise 5
 
 
 
